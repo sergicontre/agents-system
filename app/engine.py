@@ -15,7 +15,7 @@ if __name__ == "__main__":
         "action": {
             "name": "add",
             "args": {
-                "a": 1
+                "content": "1"
             }
         },
     })

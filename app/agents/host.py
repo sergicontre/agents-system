@@ -19,6 +19,7 @@ class Host(Agent):
     def before_remove(self):
         """Called before the agent is removed from the space"""
         print("I'm being removed!")
+
     @action
-    def add(self, a: int):
-        print("I'm 1212", a)
+    def add(self, content: str):
+        print("Action executed in agent", content)
